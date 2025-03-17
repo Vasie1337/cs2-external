@@ -4,6 +4,9 @@
 class Cache
 {
 public:
+	Cache() = default;
+	~Cache() = default;
 private:
+
 };
 
