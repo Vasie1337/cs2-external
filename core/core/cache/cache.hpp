@@ -6,8 +6,8 @@ class Cache
 public:
 	Cache();
 	~Cache();
-	bool Initialize();
 	void Tick();
+
 private:
 };
 

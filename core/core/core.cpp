@@ -8,7 +8,7 @@ Core::~Core()
 {
 }
 
-bool Core::RunLoop()
+bool Core::Tick()
 {
 	return false;
 }

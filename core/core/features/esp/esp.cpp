@@ -1,18 +1,13 @@
 #include "esp.hpp"
 
-Esp::Esp()
+ESP::ESP()
 {
 }
 
-Esp::~Esp()
+ESP::~ESP()
 {
 }
 
-bool Esp::Initialize()
-{
-	return false;
-}
-
-void Esp::Tick()
+void ESP::Tick()
 {
 }

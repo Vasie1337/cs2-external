@@ -1,12 +1,12 @@
 #pragma once
 #include "../include.hpp"
 
-class Core
+class Core : public Logger, Cache, public Aimbot, public ESP
 {
 public:
 	Core();
 	~Core();
-	bool RunLoop();
+	bool Tick();
 private:
 };
 

@@ -1,12 +1,11 @@
 #pragma once
 #include "../../../include.hpp"
 
-class Esp
+class ESP
 {
 public:
-	Esp();
-	~Esp();
-	bool Initialize();
+	ESP();
+	~ESP();
 	void Tick();
 private:
 };

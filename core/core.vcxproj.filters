@@ -1,20 +1,20 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClInclude Include="cheat\sdk\player.hpp" />
-    <ClInclude Include="cheat\sdk\hitbox.hpp" />
-    <ClInclude Include="cheat\sdk\entity.hpp" />
-    <ClInclude Include="cheat\features\aimbot\aimbot.hpp" />
-    <ClInclude Include="cheat\features\esp\esp.hpp" />
+    <ClInclude Include="core\sdk\player.hpp" />
+    <ClInclude Include="core\sdk\hitbox.hpp" />
+    <ClInclude Include="core\sdk\entity.hpp" />
+    <ClInclude Include="core\features\aimbot\aimbot.hpp" />
+    <ClInclude Include="core\features\esp\esp.hpp" />
     <ClInclude Include="include.hpp" />
-    <ClInclude Include="cheat\cheat.hpp" />
-    <ClInclude Include="cheat\cache\cache.hpp" />
+    <ClInclude Include="core\core.hpp" />
+    <ClInclude Include="core\cache\cache.hpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="cheat\features\aimbot\aimbot.cpp" />
-    <ClCompile Include="cheat\features\esp\esp.cpp" />
+    <ClCompile Include="core\features\aimbot\aimbot.cpp" />
+    <ClCompile Include="core\features\esp\esp.cpp" />
     <ClCompile Include="entry.cpp" />
-    <ClCompile Include="cheat\cheat.cpp" />
-    <ClCompile Include="cheat\cache\cache.cpp" />
+    <ClCompile Include="core\core.cpp" />
+    <ClCompile Include="core\cache\cache.cpp" />
   </ItemGroup>
 </Project>

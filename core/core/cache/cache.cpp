@@ -8,11 +8,6 @@ Cache::~Cache()
 {
 }
 
-bool Cache::Initialize()
-{
-    return false;
-}
-
 void Cache::Tick()
 {
 }

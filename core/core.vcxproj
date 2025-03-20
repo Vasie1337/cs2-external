@@ -24,6 +24,7 @@
     <ProjectGuid>{b641bcbe-2564-4b4f-a882-75413bb11e47}</ProjectGuid>
     <RootNamespace>core</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>core</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -137,20 +138,20 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="cheat\cache\cache.hpp" />
-    <ClInclude Include="cheat\cheat.hpp" />
-    <ClInclude Include="cheat\features\aimbot\aimbot.hpp" />
-    <ClInclude Include="cheat\sdk\entity.hpp" />
-    <ClInclude Include="cheat\sdk\hitbox.hpp" />
-    <ClInclude Include="cheat\sdk\player.hpp" />
-    <ClInclude Include="cheat\features\esp\esp.hpp" />
+    <ClInclude Include="core\cache\cache.hpp" />
+    <ClInclude Include="core\core.hpp" />
+    <ClInclude Include="core\features\aimbot\aimbot.hpp" />
+    <ClInclude Include="core\sdk\entity.hpp" />
+    <ClInclude Include="core\sdk\hitbox.hpp" />
+    <ClInclude Include="core\sdk\player.hpp" />
+    <ClInclude Include="core\features\esp\esp.hpp" />
     <ClInclude Include="include.hpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="cheat\cache\cache.cpp" />
-    <ClCompile Include="cheat\cheat.cpp" />
-    <ClCompile Include="cheat\features\aimbot\aimbot.cpp" />
-    <ClCompile Include="cheat\features\esp\esp.cpp" />
+    <ClCompile Include="core\cache\cache.cpp" />
+    <ClCompile Include="core\core.cpp" />
+    <ClCompile Include="core\features\aimbot\aimbot.cpp" />
+    <ClCompile Include="core\features\esp\esp.cpp" />
     <ClCompile Include="entry.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
