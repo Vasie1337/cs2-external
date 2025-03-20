@@ -1,9 +1,12 @@
 #pragma once
 #include "../include.hpp"
 
-class Cheat
+class Core
 {
 public:
+	Core();
+	~Core();
+	bool RunLoop();
 private:
 };
 

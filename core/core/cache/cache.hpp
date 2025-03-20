@@ -4,9 +4,10 @@
 class Cache
 {
 public:
-	Cache() = default;
-	~Cache() = default;
+	Cache();
+	~Cache();
+	bool Initialize();
+	void Tick();
 private:
-
 };
 

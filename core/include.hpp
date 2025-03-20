@@ -37,12 +37,12 @@
 #include <Windows.h>
 #include <TlHelp32.h>
 #include <Psapi.h>
-#include <iomanip>
 #include <dwmapi.h>
 
 // Project
-#include "cheat/sdk/entity.hpp"
-#include "cheat/sdk/hitbox.hpp"
-#include "cheat/sdk/player.hpp"
-#include "cheat/features/esp/esp.hpp"
-#include "cheat/features/aimbot/aimbot.hpp"
+#include "core/features/aimbot/aimbot.hpp"
+#include "core/features/esp/esp.hpp"
+#include "core/sdk/player.hpp"
+#include "core/sdk/hitbox.hpp"
+#include "core/sdk/entity.hpp"
+#include "core/core.hpp"

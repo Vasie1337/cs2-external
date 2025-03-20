@@ -4,6 +4,10 @@
 class Esp
 {
 public:
+	Esp();
+	~Esp();
+	bool Initialize();
+	void Tick();
 private:
 };
 

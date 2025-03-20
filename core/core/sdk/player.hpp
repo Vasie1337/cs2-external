@@ -4,8 +4,11 @@
 class Player : Entity
 {
 public:
-	// overide for entity
-	Player() = default;
-	~Player() = default;
+	Player() : Entity()
+	{
+	}
+	Player(Entity entity) : Entity(entity)
+	{
+	}
 private:
 };

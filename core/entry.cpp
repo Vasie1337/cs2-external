@@ -1,4 +1,8 @@
 #include "include.hpp"
 
-int main() {
+int main() 
+{
+	Core core;
+	core.RunLoop();
+	return 0;
 }
