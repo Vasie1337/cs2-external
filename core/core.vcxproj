@@ -141,6 +141,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="core\cache\cache.hpp" />
+    <ClInclude Include="core\cache\data\data.hpp" />
     <ClInclude Include="core\core.hpp" />
     <ClInclude Include="core\features\aimbot\aimbot.hpp" />
     <ClInclude Include="core\logger\logger.hpp" />

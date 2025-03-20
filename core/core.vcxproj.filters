@@ -10,6 +10,7 @@
     <ClInclude Include="core\core.hpp" />
     <ClInclude Include="core\cache\cache.hpp" />
     <ClInclude Include="core\logger\logger.hpp" />
+    <ClInclude Include="core\cache\data\data.hpp" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="core\features\aimbot\aimbot.cpp" />
