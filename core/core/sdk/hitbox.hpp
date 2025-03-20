@@ -4,5 +4,7 @@
 class Hitbox
 {
 public:
+	Hitbox() = default;
+	~Hitbox() = default;
 private:
 };
