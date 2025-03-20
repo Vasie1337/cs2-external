@@ -1,8 +1,9 @@
-#include "include.hpp"
+#include <include.hpp>
 
 int main() 
 {
 	Core core;
-	core.RunLoop();
+	core.Tick();
+	
 	return 0;
 }

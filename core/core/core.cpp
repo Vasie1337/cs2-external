@@ -1,14 +1,20 @@
-#include "core.hpp"
+#include <include.hpp>
 
 Core::Core()
 {
+	g_Logger.Info("Core::Core()");
 }
 
 Core::~Core()
 {
+	g_Logger.Info("Core::~Core()");
 }
 
-bool Core::Tick()
+void Core::Tick()
 {
-	return false;
+	g_Logger.Info("Core::Tick()");
+	
+	Cache::Tick();
+	Aimbot::Tick();
+	ESP::Tick();
 }

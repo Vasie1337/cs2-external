@@ -1,4 +1,4 @@
-#include "logger.hpp"
+#include <include.hpp>
 
 Logger::Logger(const std::string& logFilePath, LogLevel minLevel)
     : logLevel(minLevel)
@@ -82,7 +82,9 @@ std::string Logger::GetCurrentTimestamp()
     auto now = std::chrono::system_clock::now();
     auto time = std::chrono::system_clock::to_time_t(now);
 
+#pragma warning(disable : 4996)
     std::tm tm = *std::localtime(&time);
+#pragma warning(default : 4996)
 
     auto ms = std::chrono::duration_cast<std::chrono::milliseconds>(
         now.time_since_epoch()) % 1000;

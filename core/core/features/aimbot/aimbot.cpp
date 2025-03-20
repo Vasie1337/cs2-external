@@ -1,4 +1,4 @@
-#include "aimbot.hpp"
+#include <include.hpp>
 
 Aimbot::Aimbot()
 {

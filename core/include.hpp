@@ -42,11 +42,11 @@
 // Project
 #include "core/logger/logger.hpp"
 
+#include "core/cache/cache.hpp"
+
 #include "core/sdk/entity.hpp"
 #include "core/sdk/hitbox.hpp"
 #include "core/sdk/player.hpp"
-
-#include "core/cache/cache.hpp"
 
 #include "core/features/aimbot/aimbot.hpp"
 #include "core/features/esp/esp.hpp"

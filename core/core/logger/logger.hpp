@@ -1,9 +1,5 @@
 #pragma once
-#include <string>
-#include <fstream>
-#include <iostream>
-#include <chrono>
-#include <iomanip>
+#include <include.hpp>
 
 enum class LogLevel 
 {
@@ -14,10 +10,10 @@ enum class LogLevel
     LOG_FATAL
 };
 
-class Logger 
+class Logger
 {
 public:
-    Logger(const std::string& logFilePath = "application.log", LogLevel minLevel = LogLevel::LOG_INFO);
+    Logger(const std::string& logFilePath = "core.log", LogLevel minLevel = LogLevel::LOG_INFO);
     ~Logger();
 
     void Log(const std::string& msg, LogLevel level = LogLevel::LOG_INFO);
@@ -38,3 +34,5 @@ private:
     std::string GetCurrentTimestamp();
     std::string LogLevelToString(LogLevel level);
 };
+
+inline Logger g_Logger;

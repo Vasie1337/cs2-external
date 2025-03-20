@@ -1,12 +1,12 @@
 #pragma once
-#include "../include.hpp"
+#include <include.hpp>
 
-class Core : public Logger, Cache, public Aimbot, public ESP
+class Core : private Cache, private Aimbot, private ESP
 {
 public:
 	Core();
 	~Core();
-	bool Tick();
+	void Tick();
 private:
 };
 
